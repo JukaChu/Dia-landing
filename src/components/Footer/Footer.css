@@ -1,0 +1,8 @@
+footer {
+  height: 809px;
+}
+
+.footer__company-contacts {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.simple-service__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 264px;
+  padding-top: 100px;
+}
+
+.simple-service__photo {
+  width: 100%;
+}
+
+.simple-service__title {
+  margin-top: -20px;
+  margin-bottom: 32px;
+  font-family: var(--main-black);
+  font-size: 19px;
+  line-height: 140%;
+  color: var(--text-color-black);
+}
+
+.simple-service__subtitle {
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-color-black);
+}

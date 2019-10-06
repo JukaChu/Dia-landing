@@ -1,0 +1,14 @@
+header {
+  height: 848px;
+  overflow: hidden;
+}
+
+.header__background {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 848px solid var(--header-background-color);
+  border-right: 310px solid transparent;
+  border-left: 1250px solid var(--header-background-color);
+  border-bottom: 0;
+}

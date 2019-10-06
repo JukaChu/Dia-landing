@@ -1,0 +1,12 @@
+.button {
+  outline: none;
+  cursor: pointer;
+  border: 0 solid;
+  border-radius: 64px;
+  width: 226px;
+  height: 56px;
+  font-family: var(--main-bold);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+}

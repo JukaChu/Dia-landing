@@ -1,0 +1,74 @@
+.message-form {
+  max-width: 100%;
+  flex-grow: 1;
+}
+
+.message-form__title {
+  margin: 0;
+  padding-top: 90px;
+  font-family: var(--main-bold);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--header-background-color);
+}
+
+.message-form__title::before {
+  content: url("./before-title.svg");
+  color: var(--white);
+  position: relative;
+  top: 4px;
+  padding-right: 16px;
+}
+
+.message-form__container {
+  margin-top: 58px;
+  max-width: 656px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.message-form__input {
+  margin-top: 30px;
+  background: transparent;
+  height: 58px;
+  max-width: 656px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  outline: none;
+  font-family: var(--main-bold);
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--text-color-black);
+  padding-left: 5px;
+}
+
+.message-form__input::placeholder {
+  padding-left: 5px;
+  font-family: var(--main-bold);
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--text-color-black);
+}
+
+.message-form__input:invalid {
+  border-bottom: 1px solid red;
+}
+
+.message-form__button {
+  margin-top: 105px;
+  background: #2f80ed;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.message-form__button:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  border-color: var(--text-color-black);
+  background: var(--text-color-black);
+  color: var(--white);
+}

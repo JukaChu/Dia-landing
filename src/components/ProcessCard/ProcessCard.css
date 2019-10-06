@@ -1,0 +1,39 @@
+.process-card {
+  max-width: 362px;
+  padding-top: 161px;
+}
+
+.process-card__title {
+  margin: 0;
+  font-family: var(--main-black);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--header-background-color);
+}
+
+.process-card__title::before {
+  content: url("./before-title.svg");
+  position: relative;
+  top: 4px;
+  padding-right: 16px;
+}
+
+.process-card__subtitle {
+  margin: 0;
+  font-family: var(--main-black);
+  font-size: 32px;
+  line-height: 140%;
+  padding-top: 21px;
+  color: var(--text-color-black);
+}
+
+.process-card__text {
+  margin: 0;
+  padding-top: 64px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-color-black);
+}

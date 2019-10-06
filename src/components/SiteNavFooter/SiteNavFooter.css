@@ -1,0 +1,28 @@
+.site-nav-footer {
+  margin-top: 136px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.site-nav-footer__menu {
+  list-style: none;
+  display: flex;
+  width: 558px;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.site-nav-footer__nav-element {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: var(--main-bold);
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--text-color-black);
+  transition: 0.2s;
+}
+
+.site-nav-footer__nav-element:hover {
+  color: var(--header-background-color);
+  transition: 0.2s;
+}

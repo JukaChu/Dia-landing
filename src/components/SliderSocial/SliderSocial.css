@@ -1,0 +1,56 @@
+.slider-social {
+  height: 832px;
+}
+
+.slider-social__button {
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  z-index: 1;
+  width: 81px;
+  height: 64px;
+  background-color: var(--border-header);
+  border: 0 solid;
+}
+
+.slider-social__button--left {
+  border-radius: 50% 0 0 50%;
+  border: 0 solid;
+  left: -81px;
+  top: -32px;
+}
+
+.slider-social__button--right {
+  border-radius: 0 50% 50% 0;
+  border: 0 solid;
+  top: -32px;
+}
+
+.slider-social__image {
+  position: absolute;
+  top: -320px;
+}
+
+.slider-social__image img {
+  max-width: 1146px;
+  max-height: 640px;
+}
+
+.slider-social__social-links {
+  position: absolute;
+  right: -276px;
+  transform: rotate(90deg);
+  width: 416px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-social__social-links a {
+  text-decoration: none;
+  color: var(--text-color-black);
+  font-family: var(--main-black);
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,29 @@
+.intro-card {
+  margin: 0 auto;
+  max-width: 742px;
+  padding-top: 486px;
+}
+
+.intro-card__title {
+  margin: 0;
+  font-family: var(--main-black);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--header-background-color);
+}
+
+.intro-card__title::before {
+  content: url("./before-title.svg");
+  position: relative;
+  top: 4px;
+  padding-right: 16px;
+}
+
+.intro-card__subtitle {
+  font-family: var(--main-font);
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--text-color-black);
+}

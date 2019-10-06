@@ -1,0 +1,15 @@
+.simple-feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 64px;
+}
+
+.simple-feature__text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  max-width: 263px;
+  margin: 0;
+}

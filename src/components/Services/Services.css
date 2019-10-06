@@ -1,0 +1,21 @@
+.services {
+  background: var(--white);
+  height: 704px;
+}
+
+.services__title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -25px;
+  margin: 0;
+  font-family: var(--main-black);
+  font-size: 48px;
+  line-height: 100%;
+  color: var(--text-color-black);
+}
+
+.services__simple-service {
+  display: flex;
+  justify-content: space-between;
+}
