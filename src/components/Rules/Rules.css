@@ -3,6 +3,8 @@
 }
 
 .rules__background {
+  margin: 0 auto;
+  max-width: 1600px;
   position: relative;
   top: 160px;
   height: calc(100% - 160px);

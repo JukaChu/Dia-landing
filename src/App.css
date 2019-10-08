@@ -4,6 +4,6 @@ body {
 
 #root {
   margin: 0 auto;
-  max-width: 1600px;
+  min-width: 1600px;
   background: var(--header-grey-background);
 }

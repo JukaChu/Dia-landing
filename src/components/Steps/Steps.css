@@ -5,7 +5,7 @@
 }
 
 .steps__container-gray {
-  width: 91%;
+  max-width: 1446px;
   height: inherit;
   background: var(--header-grey-background);
   margin: 0 auto;
