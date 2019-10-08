@@ -15,3 +15,10 @@ Dia landing page was bootstrapped with [Create React App](https://github.com/fac
 - Husky
 - Surge
 - Lint staged
+
+### In process
+
+- Slider
+- Adaptive markup
+- Modal
+- Animation
