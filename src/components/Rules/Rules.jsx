@@ -30,17 +30,17 @@ export function Rules() {
             ></div>
           );
         })}
+        <Container>
+          <div className="rules__confirm">
+            <h1 className="rules__title">Vision, Passion, Results</h1>
+            <p className="rules__main-rule">
+              By the same illusion which lifts the horizon of the sea to the
+              level of the spectator on a hillside, the sable cloud beneath.
+            </p>
+            <Button text={textButton} class={classButton} />
+          </div>
+        </Container>
       </div>
-      <Container>
-        <div className="rules__confirm">
-          <h1 className="rules__title">Vision, Passion, Results</h1>
-          <p className="rules__main-rule">
-            By the same illusion which lifts the horizon of the sea to the level
-            of the spectator on a hillside, the sable cloud beneath.
-          </p>
-          <Button text={textButton} class={classButton} />
-        </div>
-      </Container>
     </div>
   );
 }
