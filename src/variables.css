@@ -7,6 +7,14 @@ html {
   --white: #ffffff;
   --border-header: #fcc304;
   --text-color-black: #253757;
+  --step-catalog-color-1: #56ccf2;
+  --step-catalog-color-2: #fcc304;
+  --step-catalog-color-3: #03d542;
+  --step-catalog-color-4: #f25656;
+  --text-color-black-second: #152032;
+  --button-background-color: #2f80ed;
+  --input-border-color: #e1e1e1;
+  --invalid-color: red;
 }
 
 @font-face {

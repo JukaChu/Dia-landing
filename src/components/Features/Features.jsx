@@ -20,8 +20,10 @@ export function Features() {
           <h2 className="features__subtitle">
             By the same illusion which lifts the horizon.
           </h2>
-          {featurePic.map(pic => {
-            return <SimpleFeature pic={pic} featureText={featureText} />;
+          {featurePic.map((pic, i) => {
+            return (
+              <SimpleFeature pic={pic} featureText={featureText} key={i} />
+            );
           })}
         </div>
       </Container>

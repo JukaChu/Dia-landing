@@ -41,15 +41,15 @@
 }
 
 .client-card__underline--1 {
-  background: #56ccf2;
+  background: var(--step-catalog-color-1);
 }
 
 .client-card__underline--2 {
-  background: #fcc304;
+  background: var(--step-catalog-color-2);
 }
 
 .client-card__underline--3 {
-  background: #f25656;
+  background: var(--step-catalog-color-4);
 }
 
 .client-card__client-name {
@@ -59,7 +59,7 @@
   font-size: 12px;
   text-align: center;
   line-height: 150%;
-  color: #152032;
+  color: var(--text-color-black-second);
 }
 
 .client-card__client-position {
@@ -73,13 +73,13 @@
 }
 
 .client-card__client-position--1 {
-  color: #56ccf2;
+  color: var(--step-catalog-color-1);
 }
 
 .client-card__client-position--2 {
-  color: #fcc304;
+  color: var(--step-catalog-color-2);
 }
 
 .client-card__client-position--3 {
-  color: #f25656;
+  color: var(--step-catalog-color-4);
 }

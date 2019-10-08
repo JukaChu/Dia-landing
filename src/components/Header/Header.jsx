@@ -6,8 +6,7 @@ import { MainInfoCard } from "../MainInfoCard/MainInfoCard";
 
 export function Header() {
   return (
-    <header>
-      <div className="header__background"></div>
+    <header className="header">
       <Container>
         <SiteNav />
         <MainInfoCard />

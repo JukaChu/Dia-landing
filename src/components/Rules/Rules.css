@@ -5,6 +5,7 @@
 .rules__background {
   position: relative;
   top: 160px;
+  height: calc(100% - 160px);
 }
 
 .rules__confirm {
@@ -38,7 +39,7 @@
 
 .rules__apply-button {
   margin-top: 55px;
-  background: #2f80ed;
+  background: var(--button-background-color);
   color: var(--white);
   transition: 0.3s;
 }
@@ -60,75 +61,75 @@
 
 .rules__figure--1 {
   background-image: url("./figure1.svg");
-  top: 60px;
-  left: 233px;
+  top: 10%;
+  left: 14%;
 }
 
 .rules__figure--2 {
   background-image: url("./figure2.svg");
-  top: 66px;
-  left: 446px;
+  top: 11%;
+  left: 28%;
 }
 
 .rules__figure--3 {
   background-image: url("./figure3.svg");
-  top: 502px;
-  left: 1012px;
+  top: 82%;
+  left: 63%;
 }
 
 .rules__figure--4 {
   background-image: url("./figure4.svg");
-  top: 264px;
-  left: 1465px;
+  top: 43%;
+  left: 91%;
 }
 
 .rules__figure--5 {
   background-image: url("./figure5.svg");
-  top: 401px;
-  left: 1337px;
+  top: 66%;
+  left: 83%;
   height: 150px;
 }
 
 .rules__figure--6 {
   background-image: url("./figure6.svg");
-  top: 358px;
-  left: 82px;
+  top: 59%;
+  left: 5%;
 }
 
 .rules__figure--7 {
   background-image: url("./figure7.svg");
-  top: 271px;
-  left: 269px;
+  top: 44%;
+  left: 17%;
   height: 150px;
 }
 
 .rules__figure--8 {
   background-image: url("./figure8.svg");
-  top: 97px;
-  left: 1447px;
+  top: 16%;
+  left: 90%;
 }
 
 .rules__figure--9 {
   background-image: url("./figure9.svg");
-  top: 118px;
-  left: 1272px;
+  top: 19%;
+  left: 80%;
   height: 150px;
 }
 
 .rules__figure--10 {
   background-image: url("./figure10.svg");
-  top: 506px;
-  left: 131px;
+  top: 83%;
+  left: 8%;
 }
 
 .rules__figure--11 {
   background-image: url("./figure11.svg");
-  top: 373px;
-  left: 1218px;
+  top: 61%;
+  left: 76%;
 }
 
 .rules__figure--12 {
   background-image: url("./figure12.svg");
-  top: 453px;
-  left: 481px;
+  top: 74%;
+  left: 30%;
 }

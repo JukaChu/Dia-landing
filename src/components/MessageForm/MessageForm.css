@@ -37,7 +37,7 @@
   max-width: 656px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid var(--input-border-color);
   outline: none;
   font-family: var(--main-bold);
   font-size: 14px;
@@ -55,12 +55,12 @@
 }
 
 .message-form__input:invalid {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid var(--invalid-color);
 }
 
 .message-form__button {
   margin-top: 105px;
-  background: #2f80ed;
+  background: var(--button-background-color);
   color: var(--white);
   transition: 0.3s;
 }

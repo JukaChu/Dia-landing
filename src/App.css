@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
 }
 
-.root {
+#root {
   margin: 0 auto;
   max-width: 1600px;
   background: var(--header-grey-background);

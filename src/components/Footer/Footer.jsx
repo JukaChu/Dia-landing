@@ -7,7 +7,7 @@ import { SiteNavFooter } from "../SiteNavFooter/SiteNavFooter";
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <Container>
         <div className="footer__company-contacts">
           <MessageForm />

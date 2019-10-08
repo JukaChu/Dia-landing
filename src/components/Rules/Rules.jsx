@@ -22,8 +22,13 @@ export function Rules() {
   return (
     <div className="rules">
       <div className="rules__background">
-        {background.map(oneFig => {
-          return oneFig;
+        {Array.from(new Array(12)).map((value, i) => {
+          return (
+            <div
+              className={`rules__figure rules__figure--${i + 1}`}
+              key={i}
+            ></div>
+          );
         })}
       </div>
       <Container>

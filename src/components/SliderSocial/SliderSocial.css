@@ -4,7 +4,6 @@
 
 .slider-social__button {
   cursor: pointer;
-  outline: none;
   position: absolute;
   z-index: 1;
   width: 81px;
@@ -29,11 +28,12 @@
 .slider-social__image {
   position: absolute;
   top: -320px;
+  max-width: 1146px;
+  max-height: 640px;
 }
 
 .slider-social__image img {
-  max-width: 1146px;
-  max-height: 640px;
+  width: 100%;
 }
 
 .slider-social__social-links {
