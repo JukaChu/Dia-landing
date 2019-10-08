@@ -19,6 +19,6 @@ Dia landing page was bootstrapped with [Create React App](https://github.com/fac
 ### In process
 
 - Slider
-- Adaptive markup
+- Adaptive design
 - Modal
 - Animation
