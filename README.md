@@ -14,7 +14,6 @@ Dia landing page was bootstrapped with [Create React App](https://github.com/fac
 - Prettier
 - Husky
 - Surge
-- Lint staged
 
 ### In process
 
